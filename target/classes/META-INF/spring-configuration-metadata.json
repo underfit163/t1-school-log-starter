@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "logging.http",
+      "type": "ru.t1.logstarter.configuration.HttpLogProperties",
+      "sourceType": "ru.t1.logstarter.configuration.HttpLogProperties"
+    },
+    {
+      "name": "logging.service",
+      "type": "ru.t1.logstarter.configuration.LogProperties",
+      "sourceType": "ru.t1.logstarter.configuration.LogProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "logging.http.enabled",
+      "type": "java.lang.String",
+      "sourceType": "ru.t1.logstarter.configuration.HttpLogProperties"
+    },
+    {
+      "name": "logging.http.filter-level",
+      "type": "org.slf4j.event.Level",
+      "sourceType": "ru.t1.logstarter.configuration.HttpLogProperties"
+    },
+    {
+      "name": "logging.http.log-level",
+      "type": "org.slf4j.event.Level",
+      "sourceType": "ru.t1.logstarter.configuration.HttpLogProperties"
+    },
+    {
+      "name": "logging.service.enabled",
+      "type": "java.lang.String",
+      "sourceType": "ru.t1.logstarter.configuration.LogProperties"
+    },
+    {
+      "name": "logging.service.filter-level",
+      "type": "org.slf4j.event.Level",
+      "sourceType": "ru.t1.logstarter.configuration.LogProperties"
+    },
+    {
+      "name": "logging.service.log-level",
+      "type": "org.slf4j.event.Level",
+      "sourceType": "ru.t1.logstarter.configuration.LogProperties"
+    }
+  ],
+  "hints": []
+}
